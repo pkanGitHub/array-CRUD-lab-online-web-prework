@@ -3,33 +3,33 @@ def create_an_empty_array
 end
 
 def create_an_array
-  my_array = ["rainning", "sunny", "cloudy", "hailing"]
+  array = ["rainning", "sunny", "cloudy", "hailing"]
 end
 
 def add_element_to_end_of_array(array, element)
-  my_array.push("lighting")
+  array.push("lighting")
 end
 
 def add_element_to_start_of_array(array, element)
-  my_array.unshift("storming")
+  array.unshift("storming")
 end
 
 def remove_element_from_end_of_array(array)
-  my_array.pop
+  array.pop
 end
 
 def remove_element_from_start_of_array(array)
-  my_array.shift
+  array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
-  my_array["am"]
+  array["am"]
 end
 
 def retrieve_first_element_from_array(array)
-  my_array[0]
+  array[0]
 end
 
 def retrieve_last_element_from_array(array)
-  my_array[-1]
+  array[-1]
 end
